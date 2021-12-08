@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.text.Font?>
+<HBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" style="-fx-background-color: #CDC8B1" fx:controller="com.example.chess.Controllers.LoadController" prefHeight="400.0" prefWidth="600.0">
+    <ImageView fitHeight="150.0" fitWidth="200.0">
+        <Image url="@../pieces/icon.png" />
+    </ImageView>
+
+    <VBox>
+        <Label text="Carregando tabuleiro">
+            <font>
+                <Font name="Arial Black" size="14.0" />
+            </font></Label>
+        <ProgressBar fx:id="progressBar" />
+        <Label text="Baixando Conteudo...">
+            <font>
+                <Font name="Arial Black" size="14.0" />
+            </font></Label>
+    </VBox>
+
+</HBox>

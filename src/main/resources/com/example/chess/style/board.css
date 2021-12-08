@@ -1,0 +1,48 @@
+.black {
+    /*-fx-background-color: #1E90FF;*/
+    -fx-background-color: grey;
+}
+
+.white {
+    /*-fx-background-color: #87CEFA;*/
+    -fx-background-color: lightgrey;
+}
+
+.style {
+    -fx-font-size: 3em;
+
+}
+
+.edge {
+    -fx-background-color: #696969;
+}
+
+.edgeSquare {
+    -fx-border-color: #FF1493;
+}
+
+.selectSquare {
+    -fx-background-color: wheat;
+    /*-fx-background-color: #EEDD82;*/
+    -fx-border-color: #000000;
+}
+
+.kingSquare {
+    -fx-background-color: red;
+}
+
+
+/* CSS */
+
+
+
+
+/*
+.nomeclasse     classe é usada em varios componetes, ex: botao-verde, fundo-amarelo
+                um componente pode possuir diversas classes
+
+
+#nomeID       ID é usado em apenas UM elemento, eh unico: ex: botaoCancelar, botaoSalvar
+            um componente possui apenas 1 ID
+*/
+
